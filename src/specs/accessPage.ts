@@ -5,7 +5,7 @@ describe("Automation Challenge", () => {
   it("Open WebPage and validate title", async () => {
     await StorePage.open();
     expect(await browser.getTitle()).toStrictEqual(
-      "Not The Title You're Looking For"
+      "Typescript React Shopping cart"
     );
   });
 });
